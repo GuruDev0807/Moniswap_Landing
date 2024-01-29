@@ -15,7 +15,16 @@ const Footer = () => {
         </SectionLogo>
         <SectionContactGroup>
           {dataContactList.map((each, index) => {
-            return <ButtonContact key={index}>{each.icon}</ButtonContact>;
+            return (
+              <ButtonContact
+                key={index}
+                onClick={() => {
+                  window.open(each.link);
+                }}
+              >
+                {each.icon}
+              </ButtonContact>
+            );
           })}
         </SectionContactGroup>
       </SectionTop>
