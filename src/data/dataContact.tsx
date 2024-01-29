@@ -4,12 +4,12 @@ import { FaXTwitter } from "react-icons/fa6";
 export const dataContactList = [
   {
     name: "telegram",
-    link: "https://telegram",
+    link: "https://t.me/Moniswap_Xyz",
     icon: <FaTelegramPlane />,
   },
   {
     name: "XTwitter",
-    link: "https://telegram",
+    link: "https://x.com/Moniswap_",
     icon: <FaXTwitter />,
   },
   {
