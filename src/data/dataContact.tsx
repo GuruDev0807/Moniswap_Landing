@@ -14,17 +14,17 @@ export const dataContactList = [
   },
   {
     name: "telegram",
-    link: "https://telegram",
+    link: "https://discord.com",
     icon: <FaDiscord />,
   },
   {
     name: "telegram",
-    link: "https://telegram",
+    link: "https://github.com",
     icon: <FaGithub />,
   },
   {
     name: "telegram",
-    link: "https://telegram",
+    link: "https://medium.com",
     icon: <FaMedium />,
   },
 ];
